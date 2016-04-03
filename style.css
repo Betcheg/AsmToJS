@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#codeasm {
+    width: 50%;
+    border-right: 1px solid grey;
+    padding:5px;
+    top: 0px;
+    bottom: 30px;
+    position: absolute;
+}  
+
+#buttonmake{
+    position: absolute;
+    bottom:10px;
+    left: 50;
+}
+
+#stackcontainer {
+    padding: 5px;
+    position: absolute;
+    width:48%;
+    right: 0;
+    height: 49%;
+    border-bottom: 1px solid grey;
+}
+
+#stack {
+    margin-left:25%;
+    width: 50%;
+}
+
+#jscode {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 48%;
+    padding-top: 30px;
+    height: 48%;
+}
+
+tr {
+    width: 100%;
+}
+
+td {
+    border: 1px solid black;
+    width: 1%;  /* great but wtf */
+    text-align: center;
+}
+
